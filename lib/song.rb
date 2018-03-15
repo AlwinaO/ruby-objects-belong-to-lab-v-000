@@ -3,10 +3,10 @@ class Song
 
   def artist=(artist)
     @artist = artist
-    
+
   end
+
   
-  end
 
   # attr_accessor :title
   #
