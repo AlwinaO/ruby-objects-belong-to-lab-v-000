@@ -16,12 +16,9 @@ class Song
   attr_accessor :title
 
   def artist=(artist)
-    artist.class #=> Author
-    if artist.is_a?(Artist)
+
     @artist = artist
-    else
-    raise TypeError, "Instance of Artist expected, got #{artist.class}"
-    end
+    
   end
 
 end
